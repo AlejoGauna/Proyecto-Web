@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+
+}
+/*Estilos del titulo y el parrafo inicial(primer contenedor).*/
+.primer_contenedor{
+    background-color: #D38230;
+    padding: 30px;
+}
+.titulo{
+    text-align: center;
+    color: aliceblue;
+}
+.parrafo_inicio{
+    font-size: 20px;
+    color: aliceblue;
+    float: left;
+}
+
+
+
+/*Menu de navegacion(segundo contenedor).*/
+.segundo_contenedor .menu-izquierda li{
+    list-style: none;
+    font-size: 20px;
+    color: #000000;
+}
+.menu-izquierda a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu-derecha {
+    float: right;
+  }  
+.segundo_contenedor{
+    background-color:aliceblue; 
+    position: absolute;
+	left:0;
+	width:100%;
+}
+.segundo_contenedor .menu-izquierda .inicio :hover{
+    color: #D38230;
+}
+
+
+
+/*Icono*/
+img{
+    width: 4%;
+   float: right;
+  }
+
+
+
+/*imagen y parrafo de bienvenida(tercer contenedor)*/
+.tercer-contenedor{
+    background-color: aliceblue;
+}
+.imagen-de-bienvenida{
+      position: relative;
+      width: 350px;
+      height: 350x;
+      margin-top: 1%;
+      margin-right: 10%;
+  }
+.titulo-bienvenida{ 
+    position: relative;
+    margin-top: 8%;
+    margin-left: 20%;
+    font-size: 50px;
+ }
+.parrafo-bienvenida-uno{
+     font-size: 20px;
+     margin-left: 8%;
+     margin-bottom: 2%;
+     margin-top: 20px;
+ }
+.parrafo-bienvenida-dos{
+    font-size: 20px;
+    margin-left: 8%;
+}
+.platillos{
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.parrafo-bienvenida-tres{
+    margin-top: 20px;
+}
+.parrafo-bienvenida-cuatro{
+    margin-top: 20px;
+}
+.parrafo-bienvenida-cinco{
+    margin-top: 20px;
+}
+
+
+/*linea divisoria*/
+.division-contenedores{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+    background-color: aliceblue;
+}
+
+
+
+/*imagenes varias de comidas y descripcion(cuarto contenedor).*/
+.cuarto-contenedor{
+    margin-top: 150px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px; 
+    grid-template-rows: 250px;
+    padding: 10px;/*padong del contenedor*/
+    height: 500px;
+}
+.articulo-uno{/*las celdas*/
+    background-color: #D38230;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+.articulo-uno h3{/*titulo del platillo de la imagen*/
+    font-size: 25px;
+    margin-top: 50px;
+}
+.articulo-uno p{/*parrafo de la imagen*/
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.imagen{
+    position: absolute;
+    width: 250px;
+}
+
+
+
