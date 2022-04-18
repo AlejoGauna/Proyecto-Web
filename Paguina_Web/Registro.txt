@@ -1,14 +1,19 @@
 PROYECTO : Alejo Gauna.
 
+
+
 El proyecto que estoy programando es una Pagina Web de comidas varias, en la que un usuario puede registrarce
 y reservar una mesa de modo ficico en el Restaurante. 
 En esta pagina, ademas de hacer reservacion, tambien se puede comprar de manera online comida y bebidas. Ademas 
 de conseguir descuentos o promos (*idea).
 
+
+
 Esta pagina esta dirigido a todo el piblico ya que es un restaurante familiar.
 
 
-Navegacion : INICIO|MENÚ|NOSOTROS|REGISTRO|CUENTA
+
+Menú de Navegacion : |INICIO|MENÚ|NOSOTROS|REGISTRO|CUENTA|
 
 |INICIO|
 La pagina comienza con el INICIO, mostrando el logotipo del restaurante y un navegador menu. Tambien, en esta pagina
@@ -34,6 +39,8 @@ pagina.
 |REGISTRO||CUENTA|
 En ambas paginas, quiero poner un formulario o imaginar que una cuenta ya esta creada y darle estilos para que se 
 vean sus datos como: cuenta, sus favoritos, etc(*aun no lo eh pensado)
+
+
 
 La paleta de colores de mi sitio web van a ser en su mayoria: #D38230(para el titulo) y #FFFFFF para el fondo de 
 la pagina, con las letras en negro.
