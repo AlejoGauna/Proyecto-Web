@@ -1,0 +1,264 @@
+*{
+    font-style: italic;
+}
+
+body{
+    background-image: url(../../img/imagenes-paginas/Menú-comidas/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*contenido de platillos*/
+.titulo-platillos h1 {
+    margin-top: 60px;
+    background-color: #E16718;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    position: absolute;
+    left: calc(560px - 10px);/*para posisionar el boton de mas comidas, mediante un calculo.*/
+  }
+  
+  .button1 {
+      background-color:#E16718;
+    } 
+
+
+
+
+  
+.contenedor-comidas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 260px);/*para pc uni*/
+    grid-template-rows: 260px;
+    grid-column-gap : 50px;
+    padding: 60px;
+}
+
+
+.contenedor-comidas .tabla-platillos-uno{
+    padding-left: 600px;
+}
+
+.contenedor-comidas .tablas-platillos-uno .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+
+}
+
+.contenedor-comidas .tablas-platillos-dos .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-comidas .tablas-platillos-tres .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-comidas .tablas-platillos-cuatro .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-comidas .tablas-platillos-cinco .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-comidas .tablas-platillos-seis .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-comidas .tablas-platillos-siete .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-comidas .tablas-platillos-ocho .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+
+.imagen{
+    position: absolute;
+    width: 260px;
+    position: static;
+}
+
+
+
+
+
+/*contenido de bebidas*/
+.titulo-bebidas h1{
+    margin-top: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-bebidas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 260px);/*para pc uni*/
+    grid-template-rows: 260px;
+    grid-column-gap : 50px;
+    padding: 60px;
+    
+}
+
+
+.contenedor-bebidas .tabla-bebidas-uno{
+    padding-left: 600px;
+}
+
+.contenedor-bebidas .tablas-bebidas-uno .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+
+}
+
+.contenedor-bebidas .tablas-bebidas-dos .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-bebidas .tablas-bebidas-tres .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-bebidas .tablas-bebidas-cuatro .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-bebidas .tablas-bebidas-cinco .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-bebidas .tablas-bebidas-seis .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-bebidas .tablas-bebidas-siete .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.contenedor-bebidas .tablas-bebidas-ocho .parrafo{
+    position: relative;
+    text-align: center;
+    margin-top: 140px;
+    padding: 10px;
+    background-color: #E16718;
+    border-radius: 50px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+    position: absolute;
+    left: calc(560px - 10px);/*para posisionar el boton de mas comidas, mediante un calculo.*/
+  }
+  
+  .button1 {
+      background-color:#E16718;
+    } 
+
+
+
+/*footer*/
+.sexto-contenedor{
+    margin-top: 150px;
+    bottom: 0;
+}
