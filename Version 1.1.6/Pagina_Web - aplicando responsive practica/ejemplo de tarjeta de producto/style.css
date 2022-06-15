@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+    column-gap: 50px;
+    row-gap: 100px;
+}
+
+body{
+    background-image: url(../img/fondodos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.contenedor-de-productos{
+    max-width: 1200px;
+    margin: 50px auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+    max-width: 200px;/*tamaño de tarjeta*/
+    margin: auto;
+    text-align: center;
+    background-color: #D38230;
+}
+.card-uno{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-tres{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.card-cuatro{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.2);
+    max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.precio{
+    font-size: 150%;
+}
+.precio-uno{
+    color: grey;
+    font-size: 150%;
+}
+
+.precio-tres{
+    color: gray;
+    font-size: 150%;
+}
+
+.precio-cuatro{
+    color: gray;
+    font-size: 150%;
+}
+
+.card-uno button{
+    border: none;/*La propiedad CSS outline-style es usada 
+    para establecer el estilo del contorno de un elemento. 
+    Un contorno es una línea que se dibuja al rededor de 
+    elementos, fuera de los límites del borde, para resaltar 
+    un element*/
+    padding: 12px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button{
+    border: none;/*La propiedad CSS outline-style es usada 
+    para establecer el estilo del contorno de un elemento. 
+    Un contorno es una línea que se dibuja al rededor de 
+    elementos, fuera de los límites del borde, para resaltar 
+    un element*/
+    padding: 12px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card-tres button{
+    border: none;/*La propiedad CSS outline-style es usada 
+    para establecer el estilo del contorno de un elemento. 
+    Un contorno es una línea que se dibuja al rededor de 
+    elementos, fuera de los límites del borde, para resaltar 
+    un element*/
+    padding: 12px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card-cuatro button{
+    border: none;/*La propiedad CSS outline-style es usada 
+    para establecer el estilo del contorno de un elemento. 
+    Un contorno es una línea que se dibuja al rededor de 
+    elementos, fuera de los límites del borde, para resaltar 
+    un element*/
+    padding: 12px;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card-uno button:hover{
+    background-color: #D38230;
+}
+
+
+.card button:hover{
+    opacity: 0.7;
+}
+
+.card-tres button:hover{
+    opacity: 0.7;
+}
+
+.card-cuatro button:hover{
+    opacity: 0.7;
+}
+
+
+
+

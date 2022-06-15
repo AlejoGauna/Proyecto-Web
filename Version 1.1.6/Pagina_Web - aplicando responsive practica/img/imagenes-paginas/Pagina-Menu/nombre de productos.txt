@@ -1,0 +1,25 @@
+PLATILLOS:
+angolotti
+carpaccio 750$
+ensalada capresse $750
+gorden-minestone-soup $700 => cambiar alto
+girssinis $950=> cambiar alto
+la polenta $950=> cambiar alto
+lasaña $380=> cambiar alto
+osobucco 850$
+pizza $480
+risotto alla milanese $400
+
+BEBIDAS:
+cafe expreso $1500
+cafelate $1500
+cynar $4562
+fernet $2500
+grapa de famila $1560
+mirto $6351
+morraquito $5684
+prosecco $9542
+sambuca $6351
+strega $9462
+
+1200 x 900
