@@ -1,0 +1,142 @@
+/*estilos de version de celular*/
+@media (max-width: 858px){
+    /*CONTENIDO DE CARTEL DE BIENVENIDA E IMAGEN INICIAL*/
+    .tercer-contenedor img{
+        display: none;
+    }
+    .tercer-contenedor .titulo-bienvenida{
+        text-align: center;
+    }
+    .tercer-contenedor .parrafo-bienvenida-dos{
+        display: none;
+    }
+    .tercer-contenedor .platillos{
+        display: none;
+    }
+
+    /*FILAS Y COLUMNAS DE IMAGENES Y TEXTOS DE VERSION DE PC*/
+    .cuarto-contenedor div{
+        display: none;
+    }
+
+    /*HORARIOS DE APERTURA Y CIERRE VERSION DE CELULAR*/
+    .platillos-recomendadas{
+        display: block;
+    }
+    .quinto-contenedor img{
+        display: none;
+    }
+    .contenedor-horarios-celular{
+        display: block;
+    }
+
+    /*DIVISION DE PAGINA*/
+    .division-contenedores{
+        display: none;
+    }
+    .division-contenedores-version-celular{
+        display: none;
+        text-align: center;
+        font-size: 100%;
+        margin-top: 10%;
+        color: aliceblue;
+    }
+    .division-contenedores-dos{
+        display: none;
+    }
+    .horario-local-celular{ 
+        position: static;
+        margin-top: 8%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        font-size: 200%;
+        color: aliceblue;
+     }
+
+     /*HORARIOS DE APERTURA Y CIERRE DE VERSION DE ESCRITORIO DISPLAY:NONE.*/
+    .quinto-contenedor{
+        display: none;
+    }
+
+    /*HORARIOS DE APERTURA Y CIERRE VERSION DE CELULAR*/
+    .horario-uno-celular{
+         font-size: 130%;
+         margin-left: 23%;
+         margin-bottom: 1%;
+         margin-top: 2%;
+         color: aliceblue;
+     }
+    .horario-dos-celular{
+        font-size: 130%;
+        margin-left: 23%;
+        margin-top: 2%;
+        color: aliceblue;
+    }
+    
+    .horario-tres-celular{
+        font-size: 130%;
+        margin-left: 23%;
+        margin-top: 2%;
+        color: aliceblue;
+    }
+    .horario-cuatro-celular{
+        font-size: 130%;
+        margin-left: 23%;
+        margin-top: 2%;
+        color: aliceblue;
+    }
+    .horario-cinco-celular{
+        font-size: 130%;
+        margin-left: 23%;
+        margin-top: 2%;
+        color: aliceblue;
+    }
+    .horario-seis-celular{
+        font-size: 130%;
+        margin-left: 23%;
+        margin-top: 2%;
+        color: aliceblue;
+    }
+
+    .contenedor-principal{
+        background-color: transparent;
+    }
+
+    /*FIN DE LA PÁGINA*/
+    .sexto-contenedor span{
+        display: none;  
+    }
+    .sexto-contenedor .footer-titulo{
+        display: none;
+    }
+
+}
+
+
+
+@media (max-width: 400px){
+   .titulo-bienvenida{
+        text-align: center;
+        margin-right: 10%;
+    }
+    .tercer-contenedor p{
+        text-align: center;
+        margin-right: 5%;
+    }
+
+
+    .platillos-recomendadas{
+        width: 100%;
+    }
+    .contenedor-horarios-celular{
+        display: none;
+    }
+
+    .sexto-contenedor span{
+        display: none;  
+    }
+    .sexto-contenedor .footer-titulo{
+        display: none;
+    }
+}
+

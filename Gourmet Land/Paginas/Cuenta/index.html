@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Navegador/style-menu.css">
+    <link rel="stylesheet" href="../Footer/style-footer.css">
+    <link rel="stylesheet" href="../../Responsive/syle-responsive.css">
+    <link rel="stylesheet" href="../../Responsive/style-responsive-cuenta.css">
+    <link rel="icon" href="../../icon/icon titulo/servicio-de-habitacion.png">
+    <title>Página Web | Restaurante GourmetLand |/cuenta</title>
+</head>
+<body>
+    <!--CONTENIDO DE TITULO-->
+    <div class="primer_contenedor">
+        <h1 class="titulo"><img src="../../icon/icon titulo/bigote.png">Gourmet Land.</h1>
+        <p class="parrafo_inicio">Proyecto de pagina HTML y CSS, Alejo Gauna.</p> 
+    </div>
+
+    <!--CONTENIDO DEL MENU DE NAVEGACION-->
+    <div class="menu-principal">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img src="../../icon/icon menu/icono-menu-de-navegacion.png" alt="">
+            </label>
+            <a href="#" class="enlace">
+                
+            </a>
+            <ul>
+                <li><a class="active" href="../../index.html">Inicio</a></li>
+                <li><a href="../Nosotros/nosotros.html">Nosotros</a></li>
+                <li><a href="../Menu-Comidas/menu-comidas.html">Mení</a></li>
+                <li><a href="#">Cuenta</a></li>
+                <li><a href="../Reservacion/index.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </div> 
+
+    <!--CONTENIDO DE LA PAGINA-->
+    <form class="form" action="" id="respuesta" name="miformulario">
+        <h2 class="form-titulo">Inicia Seción</h2>
+        <p class="form-parrafo"></p>
+        
+        <div class="form-contenedor">
+            <div class="from-formulario">
+                <input type="text" id="name" class="form-input" placeholder=" ">
+                <label for="name" class="form-label">Nombre:</label>
+                <span class="form-spam"></span>
+            </div>
+
+            <div class="from-formulario">
+                <input type="text" id="user" class="form-input" placeholder=" ">
+                <label for="user" class="form-label">Nombre de Usuario:</label>
+                <span class="form-spam"></span>
+            </div>
+
+            <div class="from-formulario">
+                <input type="password" id="password" class="form-input" placeholder=" ">
+                <label for="password" class="form-label">Contresaña:</label>
+                <span class="form-spam"></span>
+            </div>
+
+            <button type="button" id="enviodato" class="bt-entrada"><input type="submit" class="form-sumbit" onclick="pregunta()" value="Iniciar" name=""></button>
+        </div>
+    </form>
+
+    <!--CONTENIDO DE LA PAGINA-->
+
+    <!--FIN DE LA PÁGINA.-->
+	<footer>
+		<div class="sexto-contenedor">
+			<div class="footer-main">
+				<div class="footer-columna">
+					<h3>Charlá con nosotros : </h3>
+					<input type="email" placeholder="Escribanos">
+					<input class ="boton-envio" type="submit" value="Enviar">
+				</div>
+
+				<div class="footer-columna">
+					<h3 class="footer-titulo">Dirección y Teléfono:</h3>
+					<span class="fa fa-map-marker"><p>UADE, Lima 775, C1073 CABA</p></span>
+					<span class="fa fa-phone"><p>|Tel.: 4922-9352 |</p></span>
+				</div>
+			</div>
+		</div>
+		<div class="footer-icon">
+			<div class="redes">
+				<div class="footer-redes">
+					<img src="../../icon/icon footer/copyright.png">
+					<img src="../../icon/icon footer/facebook.png">
+					<img src="../../icon/icon footer/instagram.png">
+					<img src="../../icon/icon footer/whatsapp.png">
+                    <img src="../../icon/icon footer/youtube.png">
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+<script src="javascript.js"></script>
+</body>
+</html>

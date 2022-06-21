@@ -1,0 +1,45 @@
+@media (max-width: 858px){
+    .contenedor-nosotros .parrafo-historia h1{
+        font-size: 200%;
+    }
+    .contenedor-nosotros .parrafo-historia p{
+        font-size: 150%;
+    }
+    .slider h1{
+        font-size: 200%;
+    }
+    .slider p{
+        font-size: 150%;
+    }
+}
+
+
+@media (max-width: 300px){
+    .slider{
+        display: none;
+    }
+    .parrafo-historia h1{
+        display: none;
+    }
+
+    .sexto-contenedor span{
+        display: none;  
+    }
+    .sexto-contenedor .footer-titulo{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+    .slider{
+        display: none;
+    }
+
+    .sexto-contenedor span{
+        display: none;  
+    }
+    .sexto-contenedor .footer-titulo{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+.menu-principal{
+    z-index: 2;
+}
+
+.form{
+    z-index: 0;
+}
+
+
+body{
+    background-image: url(../../img/imagenes-paginas/Cuenta/fondo-de-pagina.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form{
+    background-color: #D38230;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form{
+    margin-top: 14%;
+}
+
+.form-titulo{
+    font-size: 200%;
+    margin-bottom: 10px;
+}
+
+.form-parrafo{
+    font-weight: 300;
+}
+
+
+.form-link{
+    font-weight: 400;
+    color: black;
+}
+
+.form-contenedor{
+    margin-top: 10%;
+    display: grid;
+    gap: 15%;
+}
+
+.from-formulario{
+    position: relative;
+}
+
+.form-input{
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    font-size: 100%; 
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label{
+    transform: translateY(-17px); 
+}
+
+.form-label{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+
+.form-sumbit{
+    background-color: aliceblue;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 100%;
+    border: none;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+button{
+    border: none;
+}

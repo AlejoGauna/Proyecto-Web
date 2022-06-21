@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(img/fondodos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/*Estilos del titulo y el parrafo inicial(primer contenedor).*/
+.primer_contenedor{
+    background-color: #D38230;
+    padding: 1%;
+}
+.primer_contenedor p{
+    display: none;
+}
+.titulo{
+    text-align: center;
+    color: aliceblue;
+}
+.parrafo_inicio{
+    font-size: 100%;
+    color: aliceblue;
+    float: left;
+}
+
+
+/*estilos del menu de navegacion*/
+nav{
+    background: #D38230;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+nav ul{
+    float: right;
+    margin-right: 5%;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 400%;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 100%;
+    padding: 7px 13px;
+    border-radius: 7%;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 10%;
+    margin-top: 0.50%;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.menu-principal{
+    position: sticky;
+    top: 0;
+}
+.menu-principal label{
+    width: 127%;
+}
+
+
+
+/*Icono*/
+img{
+    width: 4%;
+   float: right;
+  }
+
+
+
+/*imagen y parrafo de bienvenida(tercer contenedor)*/
+.imagen-de-bienvenida{
+      position: relative;
+      width: 20%;
+      height: 20%;
+      margin-top: 1%;
+      margin-right: 10%;
+      position: static;
+  }
+.titulo-bienvenida{ 
+    position: relative;
+    position: static;
+    margin-top: 8%;
+    margin-left: 20%;
+    font-size: 200%; 
+    color: aliceblue;
+ }
+.parrafo-bienvenida-uno{
+     font-size: 140%;
+     margin-left: 8%;
+     margin-bottom: 2%;
+     margin-top: 20px;
+     color: aliceblue;
+ }
+.parrafo-bienvenida-dos{
+    font-size: 140%;
+    margin-left: 8%;
+    color: aliceblue;
+}
+.platillos{
+    font-size: 140%;
+    margin-left: 8%;
+    margin-top: 1%;
+    color: aliceblue;
+}
+.parrafo-bienvenida-tres{
+    margin-top: 1%;
+    color: aliceblue;
+}
+.parrafo-bienvenida-cuatro{
+    margin-top: 1%;
+    color: aliceblue;
+}
+.parrafo-bienvenida-cinco{
+    margin-top: 1%;
+    color: aliceblue;
+}
+
+
+
+/*linea divisoria*/
+.division-contenedores{
+    text-align: center;
+    font-size: 100%;
+    margin-top: 10%;
+    color: aliceblue;
+}
+
+.division-contenedores-version-celular{
+    display: none;
+}
+.division-contenedores-dos{
+    display: none;
+}
+
+
+
+/*division version celular*/
+.division-contenedores-version-celular{
+    display: none;
+}
+
+
+/*imagenes varias de comidas y descripcion(cuarto contenedor).*/
+.cuarto-contenedor{
+    margin-top: 10%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    grid-template-rows: 250px;
+    padding: 10px;
+    height: 500px;
+}
+.articulo-uno{
+    background-color: #D38230;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+.articulo-uno h3{
+    font-size: 25px;
+    margin-top: 50px;
+}
+.articulo-uno p{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.imagen{
+    position: absolute;
+    width: 250px;
+    position: static;
+}
+
+
+
+                 
+/*horario de bienvenida(quinto contenedor)*/
+.imagen-horario{
+      position: relative;
+      width: 20%;
+      height: 20%;
+      margin-top: 1%;
+      margin-right: 10%;
+      position: static;
+  }
+.horario-local{ 
+    position: static;
+    margin-top: 8%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    font-size: 200%;
+    color: aliceblue;
+ }
+.horario-uno{
+     font-size: 130%;
+     margin-left: 23%;
+     margin-bottom: 1%;
+     margin-top: 2%;
+     color: aliceblue;
+ }
+.horario-dos{
+    font-size: 130%;
+    margin-left: 23%;
+    margin-top: 2%;
+    color: aliceblue;
+}
+
+.horario-tres{
+    font-size: 130%;
+    margin-left: 23%;
+    margin-top: 2%;
+    color: aliceblue;
+}
+.horario-cuatro{
+    font-size: 130%;
+    margin-left: 23%;
+    margin-top: 2%;
+    color: aliceblue;
+}
+.horario-cinco{
+    font-size: 130%;
+    margin-left: 23%;
+    margin-top: 2%;
+    color: aliceblue;
+}
+.horario-seis{
+    font-size: 130%;
+    margin-left: 23%;
+    margin-top: 2%;
+    color: aliceblue;
+}
+
+/*horario de bienvenida version de celular*/
+.contenedor-horarios-celular{
+    display: none;
+}
+
+.contenedor-mapa{
+    display: none;
+}
+
+
+
+/*footer (pie de página)*/
+footer {
+	width: 100%;
+}
+
+.sexto-contenedor {
+	width: 100%;
+	background: #D38230;
+	color: #fff;
+    margin-top: 15%;
+}
+
+.footer-main {
+	width: 98%;
+	max-width: 63%;
+	margin: auto;
+	padding: 2% 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-main .footer-columna h3 {
+	font-size: 180%;
+	margin-bottom: 1%;
+}
+
+.footer-main .footer-columna input{
+	border: none;
+	width: 100%;
+	border: 1px solid;
+	font-size: 5%;
+	padding: 1%;
+}
+
+.footer-main .footer-columna input {
+	border: none;
+	color: #000;
+	padding: 1% 1%;
+	font-size: 145%;
+	margin-top: 1%;
+	cursor: pointer;
+}
+
+.footer-main .footer-columna .boton-envio {
+	border: none;
+	color: #000;
+    background-color: aliceblue;
+	padding: 2% 1%;
+	font-size: 145%;
+	margin-top: 6%;
+    margin-bottom: 6%;
+	cursor: pointer;
+}
+
+.footer-main .footer-columna span p {
+	display: inline-block;
+	margin-left: 4%;
+	margin-bottom: 5%;
+}
+
+.footer-icon {
+	width: 100%;
+	background: #000;
+	border-top: 3px solid #fff;
+}
+
+.redes {
+	width: 98%;
+	max-width: 63%;
+	padding: 1% 0;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-icons .footer-redes {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.redes .footer-redes img {
+	display: inline-block;
+	text-decoration: none;
+	width: 20%;
+	height: 40px;
+	border-radius: 50%;
+	background: #fff;
+	text-align: center;                                         
+}
+
+.footer-main .footer-columna:nth-child(2) {/*extraido de ejemplo de internet!!!*/
+    padding-left: 10%;
+}
+
+
+
+
+
+
+

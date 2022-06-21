@@ -1,0 +1,13 @@
+@media (max-width: 400px){
+    .slider{
+        display: none;
+    }
+
+    .sexto-contenedor span{
+        display: none;  
+    }
+    .sexto-contenedor .footer-titulo{
+        display: none;
+    }
+    
+}
